@@ -1,8 +1,7 @@
 ---
-layout: Welcome
+layout: about
 title: Hi
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
