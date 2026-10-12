@@ -1,97 +1,61 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Mechanical Engineering
+      institution: University of Wisconsin–Madison
+      year: 2022 – 2027 (expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.8/4.0"
+    - title: M.S., Mechanical Engineering
+      institution: University of Wisconsin–Madison
+      year: 2022 – 2024
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.8/4.0"
+    - title: B.S. (Honors), Applied Mathematics, Engineering, and Physics
+      institution: University of Wisconsin–Madison
+      year: 2019 – 2022
+      description:
+        - "GPA: 3.9/4.0"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Robot Learning & Simulation Intern
+      institution: Tesla, Inc. – Optimus, Palo Alto, California
+      year: Sep 2025 – Jun 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built Tesla's first internal tactile sensor simulation model on hydroelastic contact, and calibrated the mapping from contact pressure to tactile readings through sim-to-real experiments.
+        - Increased GPU-batched simulation throughput by 50× over the public solver baseline by adding broad-phase collision detection and optimizing hydroelastic-contact handling.
+        - Integrated the new solver, tactile simulation, and whole-body control (WBC) policy replay into the planner team's simulation platform for vision-in-the-loop evaluation of the planner–controller stack.
+        - Integrated the solver into the controller team's WBC training infrastructure, which became the default workflow for controller training and simulation data collection.
+        - Deployed and validated WBC policies across physics engines and physical robots, using sim-to-sim and sim-to-real results to improve the data loader, solver settings, and training infrastructure.
+    - title: Simulation-Based Engineering Lab (SBEL)
+      institution: University of Wisconsin–Madison, Advisor Dan Negrut
+      year: Sep 2022 – Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developing Neural Reduced Dynamics (NRD), a framework that distills high-fidelity physics simulations into fast learned models for high-throughput reinforcement learning rollouts and gradient-based trajectory optimization. Validated sim-to-sim across multiple systems; extending to manipulation and legged locomotion, with sim-to-real validation planned. Under review.
+        - Built a quadruped reinforcement learning framework in PyChrono with terrain-aware domain randomization and granular-terrain fine-tuning.
+        - Contribute to Project Chrono and helped develop the Autonomy Research Testbed (ART), a ROS 2 platform that runs one autonomy stack in simulation and on physical ground vehicles.
+        - Implemented and evaluated ground-robot path-following policies in simulation and on hardware, studying simulation fidelity and zero-shot sim-to-real transfer.
+    - title: Lab Liaison, UW–Madison / Komatsu Research Collaboration
+      institution: University of Wisconsin–Madison
+      year: Oct 2023 – Oct 2024
       description:
+        - Delivered a tracked-vehicle digital twin and simulation testbed integrating perception, planning, and control for Komatsu engineers.
+        - Developed and validated obstacle-avoidance algorithms in high-fidelity simulation with engineers from Komatsu Japan.
+    - title: ARC Lab
+      institution: University of Wisconsin–Madison, Advisor Xiangru Xu
+      year: Dec 2020 – Sep 2022
+      description:
+        - Implemented onboard model predictive control by integrating ACADO solvers with the ROS stack on a ground-vehicle platform.
+        - Developed autonomous-driving control algorithms for the team that placed third at the national eVGrandPrix in May 2022.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Skills
+  type: map
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - name: Programming
+      value: Python, C++, CUDA, MATLAB, Julia, CMake
+    - name: ML / AI
+      value: PyTorch, TensorFlow, Keras, Transformers, Diffusion Models, Vision-Language-Action (VLA) Models, Reinforcement Learning, Teacher-Student Policy Distillation
+    - name: Tools & Platforms
+      value: Linux, ROS / ROS 2, Docker, MuJoCo, Isaac Lab, Genesis, Blender

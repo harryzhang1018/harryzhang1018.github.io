@@ -10,13 +10,16 @@ profile:
   more_info: >
     <p>Hello Everyone!!!</p>
 
-
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 latest_posts: false # includes a list of the newest posts
 ---
 
-Hi everyone! My name is Harry (Haorui) Zhang and I earned a Bachelor of Science in Applied Mathematics, Engineering, and Physics, and a Master of Science in Mechanical Engineering from the University of Wisconsin–Madison, where I'm also currently pursuing a Ph.D. in Mechanical Engineering. My research at the Simulation Based Engineering Lab (SBEL) focuses on developing autonomy stacks for various purposes, e.g. path-following and obstacle avoidance, utilizing advanced simulation-to-reality transfer methodologies.
+I'm Harry (Haorui) Zhang, a Ph.D. student in Mechanical Engineering at the University of Wisconsin–Madison, working on robot learning and physics-based simulation. At the [Simulation-Based Engineering Lab (SBEL)](https://sbel.wisc.edu/), advised by Dan Negrut, I build tools that connect fast simulation to real robots: Neural Reduced Dynamics for distilling high-fidelity physics into learned simulators, reinforcement learning for quadrupeds in PyChrono, and autonomy stacks that run in simulation and on ground vehicles.
 
-In my spare time, I am a sport enthusiast and travel lover. I love playing baseketball, soccer, and table tennis. I also enjoy hiking, travelling around places, at the same time trying different kinds of local food. 
+From September 2025 to June 2026 I was a Robot Learning & Simulation intern on the Tesla Optimus team. There I built a tactile sensor simulation, sped up GPU-batched simulation by 50×, and brought the new solver into whole-body control policy training and sim-to-real deployment on physical robots.
+
+I hold a B.S. in Applied Mathematics, Engineering, and Physics and an M.S. in Mechanical Engineering, both from UW–Madison. You can find my [CV](/cv/) and [publications](/publications/) here.
+
+Outside of work, I enjoy basketball, soccer, table tennis, hiking, and travelling, and I like trying local food wherever I end up.

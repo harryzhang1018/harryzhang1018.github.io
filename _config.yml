@@ -311,8 +311,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhang]
+  first_name: [Harry, Haorui, H.]
 
   style: apa
   locale: en
@@ -625,9 +625,10 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# The CV page renders _data/cv.yml. To use a JSON Resume file instead, restore:
+#   - data: resume
+#     json: assets/json/resume.json
+jekyll_get_json: []
 jsonresume:
   - basics
   - work
